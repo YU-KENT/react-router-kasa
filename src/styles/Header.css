@@ -1,0 +1,16 @@
+.logo{
+    width:210px;
+    height:68px;
+}
+ .navbar{
+   font-size: 24px;
+   width:265px;
+}
+.navbar a{
+    text-decoration: none;
+    color:#FF6060 ;
+}
+.navbar a.active{
+border-bottom: 2px solid #FF6060;
+
+}

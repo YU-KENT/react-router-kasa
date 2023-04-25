@@ -1,0 +1,13 @@
+
+.homeImg{
+    
+    object-fit: cover;
+    width: 1240px;
+    height:223px;
+    border-radius: 25px;
+    filter:brightness(70%)
+}
+.homeTitle{
+    font-size: 48px;
+    color: #ffff;
+}

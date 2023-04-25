@@ -1,0 +1,30 @@
+.logementImg{
+
+    object-fit: cover;
+    width: 1240px;
+    height: 415px;
+    border-radius: 25px;
+}
+/* .collapse{
+    
+    display: none;
+} */
+
+.button{
+    display: flex;
+    height: 52px;
+    background: #FF6060;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 4%;
+}
+.tag{
+    background: #FF6060;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
