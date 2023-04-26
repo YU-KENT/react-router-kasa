@@ -10,7 +10,8 @@ function Home(){
          <h1 className='position-absolute top-50 start-50 translate-middle homeTitle'>
             Chez vous, partout et ailleurs
          </h1>
-     </div><CardList /></>
+     </div>
+     <CardList /></>
  )
 
 }

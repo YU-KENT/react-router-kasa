@@ -7,11 +7,10 @@ function Card({id, title, location}){
 return (
   
   <Link to ={`/logements/${id}`}>
-  <div className=""  key={id} >
-  <img src={font} alt=""></img>
-  <span>{title}</span>
-  <span>{location}</span>
-  <span>{id}</span>
+  <div className=" logeCard"   >
+  {/* <img src='' alt="logements"></img> */}
+  <span className='position-absolute logeTitle'>{title}</span>
+  <span className='position-absolute logeLocation'>{location}</span>
   </div>
   </Link>
 )
