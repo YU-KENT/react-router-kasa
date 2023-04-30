@@ -9,6 +9,7 @@ function CardList(){
            {logementList.map((logement)=>(
            <div className='col mb-5 position-relative' key={logement.id}>
                 <Card 
+                cover={logement.cover}
                 id={logement.id}
                 title={logement.title}
                 location={logement.location}

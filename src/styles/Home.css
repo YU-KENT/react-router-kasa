@@ -5,12 +5,13 @@
     height:223px;
     border-radius: 25px;
     filter:brightness(70%);
-    margin-top: 3%;
     
 }
 .homeTitle{
     font-size: 48px;
     color: #ffff;
+    width:705px;
+    margin-bottom: 0;
 }
 
 .sectionLoge{
@@ -29,17 +30,29 @@
     display: block;
     width: 340px;
     height: 340px;
-    background: linear-gradient(180deg, #FF6060 0%, rgba(0, 0, 0, 0.5) 220%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     border-radius: 10px;
+    overflow: hidden;
 }
-.logeTitle{
-    display: flex;
+.logeCard img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* filter:brightness(70%); */
+}
+.CardTitle{
     height:26px;
-    bottom:9%;
-    left:5%;
+    bottom:12%;
+    left:7%;
+    width:300px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    text-align: left;
     
 }
-.logeLocation{
-    bottom:2%;
-    left:5%;
+.CardLocation{
+    bottom:5%;
+    left:7%;
+    
 }

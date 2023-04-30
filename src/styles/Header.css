@@ -8,7 +8,9 @@
 }
 .navbar a{
     text-decoration: none;
-    color:#FF6060 ;
+    color: #FF6060;
+    display: block;
+    height: 33Px;
 }
 .navbar a.active{
 border-bottom: 2px solid #FF6060;

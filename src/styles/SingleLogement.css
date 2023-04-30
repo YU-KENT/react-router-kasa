@@ -1,30 +1,88 @@
 .logementImg{
-
-    object-fit: cover;
-    width: 1240px;
+    width: 1229px;
     height: 415px;
+    position: relative;
+   
+}
+.logementImg img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
     border-radius: 25px;
 }
-/* .collapse{
-    
-    display: none;
-} */
+.logeButton{
+    width:582px
+}
 
 .button{
     display: flex;
+    position: relative;
     height: 52px;
     background: #FF6060;
     color: #FFFFFF;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 7px;
     align-items: center;
     padding-left: 4%;
+
 }
 .tag{
     background: #FF6060;
     border-radius: 10px;
+    width:115px;
+    height:25px;
     text-align: center;
     color: #FFFFFF;
     font-size: 14px;
+    margin-left: 12px;
 
+}
+
+.logementColl{
+    padding: 4%;
+    padding-top: 5%;
+    height:249px;
+    background-color: #F6F6F6;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius:0 0 5% 5%;
+}
+
+
+.logeTitle{
+    font-size: 36px;
+}
+.logeLocation{
+    font-size: 18px;
+}
+.ArrowDown{
+    position: absolute;
+    top:5px;
+    right:12px;
+}
+.ArrowUp{
+    position: absolute;
+    top:16px;
+    right:12px;
+}
+.arrowLeft{
+    position: absolute;
+    top:162px;
+    left:5px;
+    cursor: pointer;
+}
+
+.arrowRight{
+    position: absolute;
+    top:162px;
+    right:5px;
+    cursor: pointer;
+}
+
+.numberImg{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    right:49%;
+    bottom:3%;
 }

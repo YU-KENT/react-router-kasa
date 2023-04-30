@@ -5,3 +5,26 @@
     border-radius: 25px;
     filter:brightness(70%)
 }
+.AproposButton{
+    margin-top: 31px;
+    width:1023px;
+}
+.AproposButton .button{
+    font-size: 24px;
+    height: 47px;
+}
+.AproposColl{
+    padding: 2%;
+    padding-top: 3%;
+    background-color: #F6F6F6;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius:0 0 5% 5%;
+}
+.AproposButton .ArrowUp{
+    top:8px;
+}
+
+.AproposButton .ArrowDown{
+    top:-3px;
+}

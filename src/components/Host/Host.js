@@ -1,10 +1,12 @@
+import '../../styles/Host.css'
 function Host(host){
 const {picture, name} = host.host
 
 return(
     <>
-    <img src={picture} alt="profile"></img>
-    <span>{name}</span>
+    <span className='nomHost'>{name}</span>
+    <img className='profile' src={picture} alt="profile"></img>
+    
     </>
 )
 }
