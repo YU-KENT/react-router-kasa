@@ -33,3 +33,16 @@
     }
     
 }
+
+@media screen and (min-width:600.99px) and (max-width: 1024px){
+    .title404{
+        font-size:200px;
+        padding-top:120px;
+    }
+    .sousTitle{
+        font-size: 22px;
+    }
+    
+
+
+}
