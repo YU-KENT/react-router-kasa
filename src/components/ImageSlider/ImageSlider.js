@@ -28,7 +28,7 @@ function ImageSlider({slides},{host}){
             <p className="numberImg">{currentIndex + 1}/{slides.length}</p>
            </div>
            
-    )
+           )
 
 }
 

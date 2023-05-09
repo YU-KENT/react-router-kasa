@@ -8,13 +8,12 @@ import ImageSlider from'../../components/ImageSlider/ImageSlider'
 import Error from "../Error/Error";
 
 
-
 function SingleLogement(){
     const {logementId} = useParams()
     const logementcurrent = logementList.find((logement)=> logement.id === logementId )
     const isIdsWrong = logementcurrent === undefined ? true : false
 
-    if(isIdsWrong) {return(<Error/>) }
+    if(isIdsWrong) { return(<Error/>) }
     else {
     const ranges = [1,2,3,4,5]
     const {title,location,tags,rating,host,description,equipments }= logementcurrent

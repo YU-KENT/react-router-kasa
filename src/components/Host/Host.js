@@ -6,7 +6,6 @@ return(
     <>
     <span className='nomHost'>{name}</span>
     <img className='profile' src={picture} alt="profile"></img>
-    
     </>
 )
 }
