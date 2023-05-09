@@ -251,14 +251,20 @@ margin-left: 2%;
     .logementImg{
         height:330px;
     }
-    .ArrowUp svg{
-        width:60px;
-        height:60px;
+    .arrowLeft svg{
+        width:50px;
+       height:50px;
+
     }
-    .ArrowDown svg{
-        width:60px;
-        height:60px;
+    .arrowRight svg{
+        width:50px;
+        height:50px;
+     }
+     .arrowRight{
+        right:3%;
     }
-   
+    .arrowLeft{
+        left:9%;
+    }
 
 }
