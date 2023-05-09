@@ -5,9 +5,9 @@ import '../../styles/Home.css'
 
 function Home(){
  return(
-    <><div className='container position-relative text-center mt-5 '>
-         <img className='homeImg' src={montagne} alt="photoMontagne"></img>
-         <h1 className='position-absolute top-50 start-50 translate-middle homeTitle'>
+    <><div className='homeImg '>
+         <img className='' src={montagne} alt="photoMontagne"></img>
+         <h1 className='homeTitle'>
             Chez vous, partout et ailleurs
          </h1>
      </div>

@@ -12,3 +12,24 @@
     font-size: 18px;
     color:#FF6060 ;
 }
+
+@media screen and (max-width:600px) {
+    .title404{
+        font-size:96px ;
+        padding-top: 180px;
+
+    }
+    .sousTitle{
+        margin: 0 auto;
+        word-wrap: break-word;
+        word-break: keep-all;
+        width: 219Px;
+        font-size: 18px;
+        padding-top: 11px;
+    }
+    .errorPageLink{
+        padding: 133px 0;
+        font-size: 14px;
+    }
+    
+}

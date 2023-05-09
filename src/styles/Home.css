@@ -1,13 +1,23 @@
 
 .homeImg{
-    object-fit: cover;
-    width: 1240px;
+    width: 100vw;
+    padding: 0 100px;;
+    position:relative;
     height:223px;
+    margin-top: 28px;
+}
+.homeImg img{
+    object-fit: cover;
     border-radius: 25px;
+    width: 100%;
+    height: 100%;
     filter:brightness(70%);
-    
 }
 .homeTitle{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     font-size: 48px;
     color: #ffff;
     width:705px;
@@ -15,17 +25,26 @@
 }
 
 .sectionLoge{
-    background-color: #F7F7F7;
-    width: 1240px;
-
+    width: 100vw;
+    padding: 0 100px;
+    margin-top: 43px;
 }
-
+.logements{
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .sectionLoge a{
     text-decoration: none;
     color: #ffff;
 
 }
-
+.cards{
+    position: relative;
+    margin: 0 auto;
+    margin-top:56px;
+}
 .logeCard{
     display: block;
     width: 340px;
@@ -33,6 +52,7 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     border-radius: 10px;
     overflow: hidden;
+    font-size: 18px;
 }
 .logeCard img{
     width: 100%;
@@ -55,4 +75,42 @@
     bottom:5%;
     left:7%;
     
+}
+
+@media screen and (max-width:600px)  {
+    .homeImg{
+        width: 100vw;
+        padding: 0 20px;;
+        height:111px;
+        margin-top: 0;
+    }
+    .homeImg img{
+        border-radius: 10px;
+    }
+
+    .homeTitle{
+        font-size: 24px;
+        height:48px;
+        width:217px;
+        line-height: 24px;
+        margin-bottom: 0;
+        left:38%;
+    }
+    .sectionLoge{
+        width: 100vw;
+        padding: 0 20px;;
+       
+        background-color: white;
+        margin-top: 0;
+    }
+    .logements{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        margin-top:20px;
+    }
+    .logeCard{
+        width: 335px;
+        height: 335px;
+    }
 }

@@ -9,14 +9,14 @@ function Apropos(){
  const Phrase4 = 'La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l\'hôte qu\'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.'
  
  return(
-    <><div className='container text-center'>
-         <img className='titleImg' src={foret} alt="photoForet"></img>
+    <><div className='titleImg'>
+         <img src={foret} alt="photoForet"></img>
      </div>
      <div className='row justify-content-center'>
        <div className="AproposButton">{Collapse('Fiabilité',Phrase1,'AproposColl')}</div>
        <div className="AproposButton">{Collapse('Respect',Phrase2,'AproposColl')}</div>
        <div className="AproposButton">{Collapse('Service',Phrase3,'AproposColl')}</div>
-       <div className="AproposButton">{Collapse('Sécurité',Phrase4,'AproposColl')}</div>
+       <div className="AproposButton sécurité">{Collapse('Sécurité',Phrase4,'AproposColl')}</div>
     </div>
     </>
  )

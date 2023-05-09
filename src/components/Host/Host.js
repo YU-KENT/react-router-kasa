@@ -1,4 +1,4 @@
-import '../../styles/Host.css'
+
 function Host(host){
 const {picture, name} = host.host
 

@@ -4,10 +4,10 @@ import Card from '../Card/Card'
 function CardList(){
     return (
 
-        <section className='container text-center sectionLoge p-5 my-5 '>
-           <div className='row row-cols-1 row-cols-md-2 row-cols-xl-3 '>
+        <section className='sectionLoge'>
+           <div className='logements'>
            {logementList.map((logement)=>(
-           <div className='col mb-5 position-relative' key={logement.id}>
+           <div className='cards' key={logement.id}>
                 <Card 
                 cover={logement.cover}
                 id={logement.id}

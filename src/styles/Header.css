@@ -6,6 +6,10 @@
    font-size: 24px;
    width:265px;
 }
+.header{
+    padding: 40px 100px;
+    
+}
 .navbar a{
     text-decoration: none;
     color: #FF6060;
@@ -15,4 +19,26 @@
 .navbar a.active{
 border-bottom: 2px solid #FF6060;
 
+}
+
+@media screen and (max-width:600px)  {
+    .logo{
+        width:145px;
+        height:43px;
+    }
+    .navbar{
+        font-size: 12px;
+        width:128px;
+     }
+     .header{
+        padding: 20px;
+        margin: 0;
+    }
+    .navbar a{
+        height:15px;
+    }
+    .navbar a.active{
+        border-bottom: 1px solid #FF6060;
+        
+        }
 }
