@@ -21,7 +21,7 @@ function SingleLogement(){
     return(
         <>
         <div>
-          <ImageSlider slides={slides} host={host}/>
+          <ImageSlider slides={slides}/>
         </div>
         <div className='logeInfo'>
              <div>

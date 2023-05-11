@@ -14,15 +14,13 @@ root.render(<App/>)
 
 
 function App() {
-/* const {id} = useParams() */
-
 return (
   <React.StrictMode>
     <Router>
       <Header/>
         <Routes>
            <Route exact path='/' element={<Home />} />
-           <Route path='logements/:logementId' element={<SingleLogement />}  />
+           <Route path='/logements/:logementId' element={<SingleLogement />}  />
            <Route path='/Apropos' element={<Apropos />} />
            <Route path="*" element={<Error/>} />
         </Routes>
