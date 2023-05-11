@@ -29,7 +29,7 @@ function SingleLogement(){
                   <span className="logeLocation">{location}</span>
                   <div className="row mt-4">
                   {tags.map((tag)=>(
-                  <span className="tag">{tag}</span>
+                  <span className="tag" key={tag}>{tag}</span>
                   ))}
                   </div>
              </div>
@@ -40,8 +40,8 @@ function SingleLogement(){
               <div className="d-flex mt-3 etoiles">
                   {ranges.map((rangeElem)=>
                   rating >= rangeElem ?
-                  <span className="etoile"><Icon icon="ic:round-star" color="#ff6060" width="30" height="30" /></span> :
-                  <span className="etoile"><Icon icon="ic:round-star" color="#e3e3e3" width="30" height="30" /></span>
+                  <span className="etoile" key={rangeElem}><Icon icon="ic:round-star" color="#ff6060" width="30" height="30" /></span> :
+                  <span className="etoile" key={rangeElem}><Icon icon="ic:round-star" color="#e3e3e3" width="30" height="30" /></span>
                   )}
               </div>
            </div>

@@ -15,7 +15,7 @@ function Collapse (nom,data,classname) {
         { typeof data === "string" ?<div>{data}</div> 
         : <div className="d-flex flex-column">
           {data.map((ele)=>{
-          return <span>{ele}</span>
+          return <span key={ele}>{ele}</span>
         })}</div>
         }  
     </div>
