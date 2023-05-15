@@ -28,7 +28,7 @@ border-bottom: 2px solid #FF6060;
     }
     .navbar{
         font-size: 12px;
-        width:128px;
+        width:140px;
      }
      .header{
         padding: 20px;
@@ -36,6 +36,7 @@ border-bottom: 2px solid #FF6060;
     }
     .navbar a{
         height:15px;
+        text-transform:uppercase
     }
     .navbar a.active{
         border-bottom: 1px solid #FF6060;

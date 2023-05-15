@@ -105,6 +105,7 @@
     }
     .logements{
         grid-template-columns: 1fr;
+        background-color: #ffff;
     }
     .cards{
         margin-top:20px;
