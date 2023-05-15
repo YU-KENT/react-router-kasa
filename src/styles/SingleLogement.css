@@ -28,6 +28,10 @@
     padding-left: 4%;
 
 }
+.tags{
+    display: flex;
+    margin-top: 20px;
+}
 .tag{
     background: #FF6060;
     border-radius: 10px;
@@ -36,8 +40,9 @@
     text-align: center;
     color: #FFFFFF;
     font-size: 14px;
-    margin-left: 12px;
-
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 2px 0;
 }
 
 .logementColl{
@@ -93,6 +98,7 @@
 }
 .Host{
     display: flex;
+    align-items: center;
 }
 .numberImg{
     position: absolute;
@@ -109,7 +115,7 @@
     justify-content: space-between;
 }
 
-.profile{
+.profiles_img{
     width: 64px;
     height: 64px;
     border-radius: 32px;
@@ -119,9 +125,11 @@
 .nomHost{
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: right;
     Line-height:25.67px;
     width: 93px;
+    height:52px;
+    margin-right: 10px;
     font-size: 18px;
     
     }
@@ -161,6 +169,9 @@ margin-left: 2%;
         width:335px;
         flex-direction: column;
     }
+    .tags{
+        margin-top: 10px;
+    }
     .tag{
         width:84px;
         height:18px;
@@ -176,13 +187,14 @@ margin-left: 2%;
         right: 1%;
         bottom: -16%;
     }
-    .profile{
+    .profiles_img{
         width:33px;
         height:33px;
     }
     .nomHost{
         font-size: 12px;
         width:66px;
+        height:33px;
         line-height: 17px;
     }
     .etoile svg{

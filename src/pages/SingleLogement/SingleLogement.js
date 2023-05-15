@@ -27,7 +27,7 @@ function SingleLogement(){
              <div>
                  <h1 className="logeTitle">{title}</h1>
                   <span className="logeLocation">{location}</span>
-                  <div className="row mt-4">
+                  <div className="tags">
                   {tags.map((tag)=>( 
                   <span className="tag" key={tag}>{tag}</span>
                   ))}
