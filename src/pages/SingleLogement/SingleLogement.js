@@ -28,7 +28,7 @@ function SingleLogement(){
                  <h1 className="logeTitle">{title}</h1>
                   <span className="logeLocation">{location}</span>
                   <div className="row mt-4">
-                  {tags.map((tag)=>(
+                  {tags.map((tag)=>( 
                   <span className="tag" key={tag}>{tag}</span>
                   ))}
                   </div>
@@ -37,8 +37,8 @@ function SingleLogement(){
               <div className="Host">
                 <Host host ={host}  />
               </div>
-              <div className="d-flex mt-3 etoiles">
-                  {ranges.map((rangeElem)=>
+              <div className="d-flex mt-3 etoiles">  
+                  {ranges.map((rangeElem)=> // display icons etoiles
                   rating >= rangeElem ?
                   <span className="etoile" key={rangeElem}><Icon icon="ic:round-star" color="#ff6060" width="30" height="30" /></span> :
                   <span className="etoile" key={rangeElem}><Icon icon="ic:round-star" color="#e3e3e3" width="30" height="30" /></span>
